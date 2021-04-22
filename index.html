@@ -18,12 +18,12 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-light bg-light fixed-top p-2">
-        <a class="navbar-brand display m-0" href="#">
+    <nav class="navbar navbar-light bg-light fixed-top p-0">
+        <a class="navbar-brand display ml-5" href="#">
             <img src="https://toppng.com/uploads/preview/transparent-background-instagram-logo-115628768457dqqkcnfyz.png"
-                width="20" class="d-inline-block align-top ml-0 mr-2" alt="">
+                width="30" class="d-inline-block align-top ml-5 p-1 " alt="">
         </a>
-        <div class="d-inline-block mt-1  ">
+        <div class="d-inline-block mt-2 p-0 ml-0 ">
             <h5 class=" font-italic ">Instagram</h5>
         </div>
 
@@ -33,22 +33,26 @@
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
                 Crear nueva
             </button>
-            ​ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            ​ <div class="modal fade" data-backdrop="false" id="exampleModal" tabindex="-1"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Subir publicación</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            Seleccionar archivos
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href=""><i class="fas fa-camera d-inline-block align-top mb-3 p-2 fixed-bottom"></i></a>
+                            <a href=""> <i
+                                    class="fas fa-map-marker-alt d-inline-block align-top mb-3 p-2 ml-4 fixed-bottom"></i></a>
+
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Guardar</button>
                         </div>
                     </div>
                 </div>
@@ -57,8 +61,8 @@
 
         <!--AJUSTES-->
         <div class="btn-group">
-            <button type="button" class="fa fa-cog btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                data-display="static" aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="fa fa-cog btn  dropdown-toggle" data-toggle="dropdown" data-display="static"
+                aria-haspopup="true" aria-expanded="false">
             </button>
             <div class="dropdown-menu dropdown-menu-lg-left">
                 <button class="dropdown-item" type="button">Action</button>
@@ -67,7 +71,54 @@
             </div>
         </div>
     </nav>
-    ​
+    <!--BOTONES SWITCH-->
+    <div>​<nav class="nav nav-pills justify-content-center mt-4">
+        <a href="index.html" class="nav-item nav-link active btn-secondary m-1"><i class="fas fa-th"></i></a>
+        <a href="index-feed.html" class="nav-item nav-link btn-light m-1"><i class="fa fa-stop"></i><a>
+    </nav></div> 
+
+    <!--CONTENIDO IMG-->
+
+     <div class="container mt-3">
+        <div class="row col-12">
+​
+            <div class="img col-4 p-1">
+                <img src="img/03092020-DSC_0034.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/03092020-DSC_0067.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/11082020-DSC_0017.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/11082020-DSC_0020.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/DSC_0588.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/DSC_0413.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/DSC_0906.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/DSC_1025.jpg" width="100%" alt="">
+            </div>
+​
+            <div class="img col-4 p-1">
+                <img src="img/DSC_0503.JPG" width="100%" alt="">
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

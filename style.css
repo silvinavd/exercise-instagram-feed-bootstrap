@@ -6,3 +6,61 @@
 .instagram {
     font-size : 20px;
 align-content: center;}
+.header {
+    background-color: white;
+    height: 50px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.box {
+    width: 400px;
+    background-color: white;
+    border: black;
+margin: auto;}
+
+.headercard {
+    width: 400px;
+    display:flex;
+}
+
+.date {
+margin-left: 230px;
+color: lightgrey;
+line-height: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-top: 10px;}
+
+.img {
+    width: 400px;
+    height: 300px;
+}
+
+.footer {
+    text-align: justify;
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+
+}
+.footer p {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+
+h3 {
+    margin: 0%;
+    margin-left:570px;
+       font-size: 20px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.content {
+    margin-top: 50px;
+        border: black;
+
+}
